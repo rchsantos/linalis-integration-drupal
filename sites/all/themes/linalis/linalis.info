@@ -1,0 +1,34 @@
+name = Linalis Theme
+description = A Bootstrap theme customized for this particular project
+core = 7.x
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]             = 'Navigation'
+regions[header]                 = 'Top Bar'
+regions[jumbotron]              = 'Jumbotron'
+regions[content]                = 'Content'
+regions[content_img_car]        = 'Content Images Carre'
+regions[content_img_cerc]       = 'Content Images Cercle'
+regions[footer_menu]            = 'Footer Menu'
+regions[footer_copyright]       = 'Footer Copyright'
+regions[popup_modal]            = 'Modal PopUp'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'
+scripts[] = 'js/bootstrap.min.js'
+scripts[] = 'js/main.js'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/styles.min.css
+
